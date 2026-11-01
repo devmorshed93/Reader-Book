@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Awaiken">
+	<!-- Page Title -->
+    <title>Reador - Book Store eCommerce</title>
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Custom Fonts Css-->
+	<link href="css/fonts.css" rel="stylesheet" media="screen">
+	<!-- Bootstrap Css -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- SlickNav Css -->
+	<link href="css/slicknav.min.css" rel="stylesheet">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<!-- Font Awesome Icon Css-->
+	<link href="css/all.min.css" rel="stylesheet" media="screen">
+	<!-- Animated Css -->
+	<link href="css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Mouse Cursor Css File -->
+	<link rel="stylesheet" href="css/mousecursor.css">
+	<!-- Main Custom Css -->
+	<link href="css/custom.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+    <!-- Preloader Start -->
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+		</div>
+	</div>
+	<!-- Preloader End -->
+
+    <!-- Header Start -->
+	<header class="main-header">
+		<div class="header-sticky">
+			<nav class="navbar navbar-expand-lg">
+                <!-- Header Action Box Start -->
+                <div class="header-action-box">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="Logo">
+                    </a>
+                    <!-- Logo End -->
+                    
+                    <!-- Header Search Form Box Start -->
+                    <div class="header-search-form-box">
+                        <!-- Header Search Form Start -->
+                        <form class="header-search-form" id="headerForm" action="#" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="product" class="form-control" placeholder="Search By Products..." required>
+                                <button type="submit" class="header-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                        </form>
+                        <!-- Header Search Form End -->
+                    </div>
+                    <!-- Header Search Form Box End -->
+                    
+                    <!-- Header Action Details Start -->
+                    <div class="header-action-details mobile-hide">
+                        <ul>
+                            <li><a href="account-dashboard.html"><img src="images/icon-user.svg" alt="">Account</a></li>
+                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt="">Wishlist</a></li>
+                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt="">Cart</a></li>
+                        </ul>
+                    </div>
+                    <!-- Header Action Details End -->
+                </div>
+                <!-- Header Action Box End -->
+
+                <!-- Main Menu Start -->
+                <div class="main-menu">
+                    <div class="collapse navbar-collapse">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                               
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                
+                                    
+                                <li class="nav-item"><a class="nav-link" href="#">Pages</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="account-wishlist.html">Wishlist</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+                                        
+                                        
+                                        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                                        
+                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                 <li>
+                                    <span class="header-action-details desktop-hide">
+                                        <a href="account-dashboard.html">Account</a>
+                                        <a href="account-wishlist.html">Wishlist</a>
+                                        <a href="cart.html">Cart</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="header-action-details">
+                            <ul>
+                                <li><a href="products.html"><img src="images/icon-sale.svg" alt="">Special Offers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+					<div class="navbar-toggle"></div>
+				</div>
+                <!-- Main Menu End -->
+			</nav>
+            <div class="responsive-menu"></div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+    <!-- Page Header Start -->
+    <div class="page-header dark-section parallaxie">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Our Products</h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Products</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Page Products Start -->
+    <div class="page-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4">
+                    <!-- Page Single Sidebar Start -->
+                    <div class="page-single-sidebar">
+                        <!-- Page Category Filter Header Start -->
+                        <div class="product-category-filter-header wow fadeInUp">
+                            <div class="product-category-filter-title">
+                                <img src="images/icon-filter.svg" alt="">
+                                <h2>Filter By</h2>
+                            </div>
+                            <div class="product-category-filter-clear-btn">
+                                <a href="#">Clear All</a>
+                            </div>
+                        </div>
+                        <!-- Page Category Filter Header End -->
+                        
+                        <!-- Product Category Item List Start -->
+                        <div class="product-category-item-list">
+                            <!-- Product Category Item Start -->
+                            <div class="product-category-item wow fadeInUp" data-wow-delay="0.2s">
+                                <h2 class="product-category-item-title">Genres</h2>
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" id="Fiction" name="genres" value="Fiction">
+                                        <label for="Fiction">Fiction (562)</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Mystery_&_thriller" name="genres" value="Mystery_&_thriller">
+                                        <label for="Mystery_&_thriller">Mystery & Thriller (284)</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Romance" name="genres" value="Romance">
+                                        <label for="Romance">Romance (318)</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Fantasy" name="genres" value="Fantasy">
+                                        <label for="Fantasy">Fantasy (205)</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Science_fiction" name="genres" value="Science_fiction">
+                                        <label for="Science_fiction">Science Fiction (176)</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Product Category Item End -->
+                            
+                            <!-- Product Category Item Start -->
+                            <div class="product-category-item wow fadeInUp" data-wow-delay="0.4s">
+                                <h2 class="product-category-item-title">Authors</h2>
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" id="Emma_richardson" name="authors" value="Emma_richardson">
+                                        <label for="Emma_richardson">Emma Richardson</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="James_carter" name="authors" value="James_carter">
+                                        <label for="James_carter">James Carter</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Olivia_bennett" name="authors" value="Olivia_bennett">
+                                        <label for="Olivia_bennett">Olivia Bennett</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Daniel_brooks" name="authors" value="Daniel_brooks">
+                                        <label for="Daniel_brooks">Daniel Brooks</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Sophia_turner" name="authors" value="Sophia_turner">
+                                        <label for="Sophia_turner">Sophia Turner</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Product Category Item End -->
+                            
+                            <!-- Product Category Item Start -->
+                            <div class="product-category-item wow fadeInUp" data-wow-delay="0.6s">
+                                <h2 class="product-category-item-title">Language</h2>
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" id="English" name="language" value="English">
+                                        <label for="English">English</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Spanish" name="language" value="Spanish">
+                                        <label for="Spanish">Spanish</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="French" name="language" value="French">
+                                        <label for="French">French</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="German" name="language" value="German">
+                                        <label for="German">German</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Japanese" name="language" value="Japanese">
+                                        <label for="Japanese">Japanese</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Product Category Item End -->
+
+                            <!-- Product Category Item Start -->
+                            <div class="product-category-item wow fadeInUp" data-wow-delay="0.8s">
+                                <h2 class="product-category-item-title">Special Collections</h2>
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" id="Staff_picks" name="special_collections" value="Staff_picks">
+                                        <label for="Staff_picks">Staff Picks</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Book_club_favorites" name="special_collections" value="Book_club_favorites">
+                                        <label for="Book_club_favorites">Book Club Favorites</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Limited_editions" name="special_collections" value="Limited_editions">
+                                        <label for="Limited_editions">Limited Editions</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Signed_copies" name="special_collections" value="Signed_copies">
+                                        <label for="Signed_copies">Signed Copies</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Product Category Item End -->
+                        </div>
+                        <!-- Product Category Item List End -->
+                    </div>
+                    <!-- Page Single Sidebar End -->
+                </div>
+
+                <div class="col-xl-9 col-lg-8">
+                    <!-- Product item List Box Start -->
+                    <div class="product-item-list-box">
+                        <!-- Product Category Filter Header Start -->
+                        <div class="product-category-filter-header wow fadeInUp">
+                            <div class="product-category-filter-title">
+                                <h2>Showing all results</h2>
+                            </div>
+                            <div class="product-category-result-info">
+                                <div class="product-category-result-pagination">
+                                    <ul>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">9</a></li>
+                                        <li><a href="#">12</a></li>
+                                        <li><a href="#">15</a></li>
+                                    </ul>
+                                </div>
+                                <div class="product-category-sorting-list">
+                                    <select name="sorting_list" class="form-control form-select" id="sorting_list" required>
+                                        <option value="" disabled selected>Default Sorting</option>
+                                        <option value="Low_to_High">Low to High</option>
+                                        <option value="High_to_Low">High to Low</option>
+                                        <option value="Popularity">Popularity</option>
+                                        <option value="Best_Sellers">Best Sellers</option>
+                                        <option value="Trending">Trending</option>
+                                        <option value="Most_Reviewed">Most Reviewed</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Category Filter Header End -->
+
+                        <!-- Product Item List Start -->
+                        <div class="product-item-list">
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-1.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">Beyond The Mountains</a></h2>
+                                    <p class="product-item-author">By Daniel Carter</p>
+                                    <h3 class="product-item-price">$79.00 <span>$84.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-2.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">The Wealth Formula</a></h2>
+                                    <p class="product-item-author">By Daniel Carter</p>
+                                    <h3 class="product-item-price">$89.00 <span>$92.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-3.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">Timeless Tales Collection</a></h2>
+                                    <p class="product-item-author">By Benjamin Hayes</p>
+                                    <h3 class="product-item-price">$52.00 <span>$53.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-4.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">Cosmic Discoveries</a></h2>
+                                    <p class="product-item-author">By Amelia Brooks</p>
+                                    <h3 class="product-item-price">$47.00 <span>$49.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-5.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">The Silent Library</a></h2>
+                                    <p class="product-item-author">By David Anderson</p>
+                                    <h3 class="product-item-price">$89.00 <span>$92.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="1s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-6.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">Harry Potter Story</a></h2>
+                                    <p class="product-item-author">By Amelia Brooks</p>
+                                    <h3 class="product-item-price">$47.00 <span>$49.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="1.2s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-7.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">The Hidden Pages</a></h2>
+                                    <p class="product-item-author">By Daniel Carter</p>
+                                    <h3 class="product-item-price">$79.00 <span>$84.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="1.4s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-8.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">Whispers In The Woods</a></h2>
+                                    <p class="product-item-author">By David Anderson</p>
+                                    <h3 class="product-item-price">$89.00 <span>$92.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+
+                            <!-- Product Item Start -->
+                            <div class="product-item wow fadeInUp" data-wow-delay="1.6s">
+                                <div class="product-item-header">
+                                    <div class="product-item-image">
+                                        <a href="product-single.html">
+                                            <figure>
+                                                <img src="images/product-image-9.png" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-item-action">
+                                        <ul>
+                                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
+                                            <li><a href="#"><img src="images/icon-preview-primary.svg" alt=""></a></li>
+                                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-item-content">
+                                    <h2 class="product-item-title"><a href="product-single.html">A World Of Wonders</a></h2>
+                                    <p class="product-item-author">By Amelia Brooks</p>
+                                    <h3 class="product-item-price">$47.00 <span>$49.00</span></h3>
+                                </div>
+                            </div>
+                            <!-- Product Item End -->
+                        </div>
+                        <!-- Product Item List End -->
+
+                        <!-- Product Leader More Button Start -->
+                        <div class="product-learn-more-btn wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="#" class="btn-default">Load More</a>
+                        </div>
+                        <!-- Product Leader More Button End -->
+                    </div>
+                    <!-- Product item List Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Products End -->
+
+    <!-- Footer Benefits Start -->
+    <div class="footer-benefits light-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <!-- Footer Benefit Item List Start -->
+                    <div class="footer-benefit-item-list">
+                        <!-- Footer Benefit Item Start -->
+                        <div class="footer-benefit-item">
+                            <div class="icon-box">
+                                <img src="images/icon-footer-benefit-1.svg" alt="">
+                            </div>
+                            <div class="footer-benefit-item-content">
+                                <h3><a href="delivery-policy.html">Free Shipping Above ₹499</a></h3>
+                            </div>
+                        </div>
+                        <!-- Footer Benefit Item End -->
+
+                        <!-- Footer Benefit Item Start -->
+                        <div class="footer-benefit-item">
+                            <div class="icon-box">
+                                <img src="images/icon-footer-benefit-2.svg" alt="">
+                            </div>
+                            <div class="footer-benefit-item-content">
+                                <h3><a href="refund-return.html">Easy 7-Day Return Policy</a></h3>
+                            </div>
+                        </div>
+                        <!-- Footer Benefit Item End -->
+
+                        <!-- Footer Benefit Item Start -->
+                        <div class="footer-benefit-item">
+                            <div class="icon-box">
+                                <img src="images/icon-footer-benefit-3.svg" alt="">
+                            </div>
+                            <div class="footer-benefit-item-content">
+                                <h3><a href="contact.html">24/7 Customer Support</a></h3>
+                            </div>
+                        </div>
+                        <!-- Footer Benefit Item End -->
+
+                        <!-- Footer Benefit Item Start -->
+                        <div class="footer-benefit-item">
+                            <div class="icon-box">
+                                <img src="images/icon-footer-benefit-4.svg" alt="">
+                            </div>
+                            <div class="footer-benefit-item-content">
+                                <h3><a href="checkout.html">100% Safe CheckOut</a></h3>
+                            </div>
+                        </div>
+                        <!-- Footer Benefit Item End -->
+                    </div>
+                    <!-- Footer Benefit Item List End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Benefits End -->
+
+    <!-- Main Footer Start -->
+    <footer class="main-footer dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <!-- About Footer Start -->
+		            <div class="about-footer">
+                        <!-- Footer Logo Start -->
+                        <div class="footer-logo">
+                            <img src="images/logo-white.svg" alt="">
+                        </div>
+                        <!-- Footer Logo End -->
+
+                        <!-- About Footer Content Start -->
+                        <div class="about-footer-content">
+                            <p>Our bookstore brings together timeless classics, bestselling titles.</p>
+                        </div>
+                        <!-- About Footer Content End -->
+
+                        <!-- Footer Socials Links Start -->
+                        <div class="footer-social-links">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Socials Links End -->
+                    </div>
+                    <!-- About Footer End -->
+                </div>
+
+                <div class="col-xl-8">
+                    <!-- Footer Links Box Start -->
+                    <div class="footer-links-box">
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Quick Links</h2>
+                            <ul>
+                                <li><a href="index-2.html">Home</a></li>
+                                <li><a href="products.html">Shop Books</a></li>
+                                <li><a href="products.html">Categories</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Categories</h2>
+                            <ul>
+                                <li><a href="products.html">Fiction</a></li>
+                                <li><a href="products.html">Non-Fiction</a></li>
+                                <li><a href="products.html">Education</a></li>
+                                <li><a href="products.html">Kids</a></li>
+                                <li><a href="products.html">Self Help</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links footer-contact-list">
+                            <h2>Contact Info</h2>
+                            <ul>
+                                <li><img src="images/icon-mail-white.svg" alt=""><span><a href="mailto:support@yourbrand.com">support@yourbrand.com</a></span></li>
+                                <li><img src="images/icon-phone-white.svg" alt=""><span><a href="tel:123456789">123-456-789</a></span></li>
+                                <li><img src="images/icon-location-white.svg" alt=""><span>245 Reading Avenue, London, United Kingdom</span></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+                    <!-- Footer Links Box End -->
+                </div>
+
+                <div class="col-lg-12">
+                    <!-- Footer Copyright Start -->
+                    <div class="footer-copyright">
+                        <!-- Footer Copyright Text Start -->
+                        <div class="footer-copyright-text">
+                            <p>Copyright @ 2026 All Rights Reserved By H. M. Morshed</p>
+                        </div>
+                        <!-- Footer Copyright Text End -->
+
+                        <!-- Footer Payment Options Start -->
+                        <div class="footer-payment-options">
+                            <ul>
+                                <li><a href="#"><img src="images/icon-payment-option-1.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icon-payment-option-2.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icon-payment-option-3.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icon-payment-option-4.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icon-payment-option-5.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icon-payment-option-6.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Payment Options End -->
+                    </div>
+                    <!-- Footer Copyright End -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Main Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+</body>
+
+</html>
